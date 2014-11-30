@@ -1,3 +1,4 @@
+var instance=
 {
     "User": {
         "Name": "Josema",
@@ -12,3 +13,4 @@
         }
     }
 }
+console.log(instance.User.PersonalInfo.Phone);

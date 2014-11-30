@@ -1,8 +1,9 @@
 //creates an array with few elements
-var myArray = ['apple', 'samsung', 'nokia', 'blackberry', 'lg', 'acer', 'huawei', 'xiaomi', 'miuzu', 'alcatel'];
+var myArray = [1, 2, 3, 4, 5];
 /************  Array.map function ******************/
 console.log('/************  Array.map function ******************/');
-var renderToScreen = function(item) {
-    console.log(item);
+var TwoTimes = function(item) {
+    return item*2;
 };
-myArray.map(renderToScreen);
+var TwoTimesArray=myArray.map(TwoTimes);
+console.log(TwoTimesArray);
