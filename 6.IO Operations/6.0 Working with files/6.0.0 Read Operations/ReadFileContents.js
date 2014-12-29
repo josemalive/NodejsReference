@@ -1,6 +1,6 @@
 var fs=require('fs');
 
-fs.readFile("../samplefile.txt", function(err, data){
+fs.readFile("./samplefile.txt", function(err, data){
 
 	if(err)
 	{

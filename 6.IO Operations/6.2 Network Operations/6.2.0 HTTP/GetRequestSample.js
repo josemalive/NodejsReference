@@ -1,14 +1,14 @@
 var http=require('http');
 
-var makeRequest= function(regexToCapture){
+var makeRequest= function(){
  
    http.get("http://www.gamespot.com/feeds/reviews/", function(res){
-      handleResponse(res, regexToCapture);
+      handleResponse(res);
    });
 
 };
 
-var handleResponse = function(response,regexToCapture) {
+var handleResponse = function(response) {
 
   var htmlResponse = '';
 
@@ -22,10 +22,8 @@ var handleResponse = function(response,regexToCapture) {
 
   //after all has been received
   response.on('end', function (){
-  //get each game and url
-  //add into file "{game}:{score}" these games
-   console.log(htmlResponse);
+  	console.log(htmlResponse);
   });
   
 }
-makeRequest("<title>(.*)<\/title>");
+makeRequest();

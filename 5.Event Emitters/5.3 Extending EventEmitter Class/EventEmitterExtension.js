@@ -5,7 +5,7 @@ var util=require('util');
 
 function EventEmitterExtension(){
 	//call event emitter class constructor
-	EventEmitter.Call(this);
+	EventEmitter.call(this);
 	//save this instance into self variable to use in timeout
 	var self=this;
 	//Call set timeout to give enough time to register the event for capture it after
