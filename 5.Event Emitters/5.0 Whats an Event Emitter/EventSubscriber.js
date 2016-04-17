@@ -1,3 +1,4 @@
+//require needed for use an example of event emiters
 var EventEmitter = require("./EventEmitters");
 
 //subscribe to event exposed by event emitter.
