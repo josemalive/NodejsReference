@@ -1,0 +1,11 @@
+ENG: npm install/update command not only installs/update the module that you want to use but all the dependencies of this module
+you're installing.
+
+Best practice is to create a package.json file where you can describe the metadata of your project and the dependencies and versions. So once you have this
+file created you just have to run the command npm install, it will try read the package.json file and install all external dependencies you need from the project.
+
+SP: el comando npm install/update no solo instala/actualiza aquel modulo que queremos usar sino tambien las dependencias de este.
+
+Una de las mejores practicas consiste en crear un archivo package.json donde puedes añadir metadatos relacionados con el proyecto asi como las dependencias y versiones del mismo.
+Una vez que dicho fichero existe solo tienes que ejecutar el comando npm install y tratará de leer el fichero package.json e instalar todas aquellas referencias externas
+necesarias para tu proyecto.

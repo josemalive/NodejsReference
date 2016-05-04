@@ -1,0 +1,21 @@
+{
+    "name":"My brand new project",
+    "version":"1.0.0",
+    "dependencies":{
+        "stringify":">5.1.0" 
+         /* 
+            ENG: higher than version 5.1.0 
+            SP: version mayor que 5.1.0
+         */
+        "cheerio":"*", 
+         /* 
+            ENG: any version of cheerio
+            SP: cualquier version de cheerio
+         */
+        "jsonwebtoken":"6.2.0" 
+         /* 
+            ENG: exact version of jsonwebtoken
+            SP: version exacta de jsonwebtoken
+         */
+    }
+}
