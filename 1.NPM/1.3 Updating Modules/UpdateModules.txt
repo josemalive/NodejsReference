@@ -1,0 +1,10 @@
+ENG: For update a module locally just just type in a console (into your project folder) npm update <package or module>. 
+It will bring the latest version for the following package/module updating node_modules folder.
+
+For update a global module just type: npm update -g <package or module>
+
+
+SP: Para actualizar un modulo local just type in a console (dentro de la carpeta de tu proyecto) npm update <package or module>. 
+Este comando descargará la ultima version del package/module correspondiente, actualizando la carpeta node_modules.
+
+Para actualizar un modulo global usa el comando: npm update -g <package or module>

@@ -1,0 +1,11 @@
+ENG: There are multiple options related with Modules installation, you can install them locally or globally.
+For install a module locally just type in a console (into your project folder) npm install <package or module>
+
+For do a global installation of a module just type: npm install -g <package or module>
+
+
+SP: Hay varios modos de instalacion en lo referente a modulos. Se hacer una instalacion local o global.
+Para instalar un modulo en modo local solo hay que ejecutar en una consola (dentro de la carpeta donde esta tu proyecto) el 
+siguiente comando: npm install <package o modulo>
+
+Para realizar una instalacion global: npm install -g <package o modulo>

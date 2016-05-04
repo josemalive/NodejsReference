@@ -1,0 +1,10 @@
+ENG: There are multiple options for uninstalling Modules, you can uninstall them locally or globally.
+For install a module locally just type in a console (into your project folder) npm install <package or module>
+
+For do a global installation of a module just type: npm uninstall -g <package or module>
+
+
+SP: Hay varios modos de desinstalacion de módulos. Para desinstalar un módulo instalado en modo local ejecutar
+en una consola (dentro de la carpeta donde esta tu proyecto) el siguiente comando: npm uninstall <package o modulo>
+
+Para realizar una instalacion global: npm uninstall -g <package o modulo>
