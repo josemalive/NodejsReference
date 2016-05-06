@@ -1,0 +1,7 @@
+{
+    "name":"Crawling sample",
+    "version":"1.0.0",
+    "dependencies":{
+        "simplecrawler":"0.6.2" 
+    }
+}
