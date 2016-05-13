@@ -3,19 +3,13 @@
 var Crawler=require("simplecrawler");
 //ENG: get the new instance of crawler object
 //SP : obtenemos la instancia de el objeto que nos permitirá hacer el crawling 
-var crawler=new Crawler("http://www.josematube.com");
-//ENG: max concurrent requests
-//SP : número máximo de peticiones concurrentes
+var Crawler = require("simplecrawler");
+var crawler = new Crawler("www.josematube.com");
+crawler.initialProtocol = "http";
+crawler.interval = 2000; 
 crawler.maxConcurrency = 1;
-//ENG: configure crawling interval every five seconds 
-//SP : configuramos el intervalo de rastreo, cada 5 segundos
-crawler.interval = 5000;  
-//ENG: Maximum "depth" of crawling (1 means to crawl urls with the following pattern:     {protocol}:{hostname}/{folder})
-//SP : Maxima "profundidad" de rastreo (1 equivale a una url con el siguiente patron:     {protocol}:{hostname}/{folder})
-crawler.maxDepth = 1;
-//hook when response has been a Http 200 using a anonymous callback as a handler 
-crawler.on("fetchcomplete", function(queueItem) {
-    console.log("Completed fetching resource:", queueItem.url);
+crawler.on("fetchcomplete", function(queueItem, responseBuffer, response) {
+    console.log("I just received %s (%d bytes)", queueItem.url, responseBuffer.length);
+    console.log("It was a resource of type %s", response.headers['content-type']);
 });
-
-
+crawler.start();
