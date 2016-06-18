@@ -1,12 +1,10 @@
-//ENG
-//Exists multiple IDE's and Text Editors here some:
+ENG:
+Exists multiple IDE's and Text Editors here some:
 
-//SP:
-//Existen multiples IDE's y Editores de texto, aqui algunos:
+SP:
+Existen multiples IDE's y Editores de texto, aqui algunos:
 
 
-
-/*
     IDEs:
         - Cloud9
             - http://c9.io 
@@ -43,4 +41,3 @@
         - Atom.
         - Visual Studio Code:
 
-*/
